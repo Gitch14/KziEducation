@@ -55,14 +55,14 @@
   #lang {
     position: relative;
     display: inline-flex;
-    left: 900px;
+    left: 90%;
     top: -7px;
   }
   
   #logOut {
     position: relative;
     display: inline-flex;
-    left: 950px;
+    left: 95%;
   }
 
   #logo {
@@ -81,13 +81,17 @@ left: 99px;
 top: 210px;
 }
 
+#profileImg {
+    height: 320px;
+}
+
 #profileText {
-    padding-top: 8%;
+    padding-top: 2%;
     padding-left: 10%;
 }
 
 #rank {
-    padding-top: 15%;
+    padding-top: 5%;
     padding-left: 6%;
 
 font-family: 'Open Sans';
@@ -106,8 +110,10 @@ color: #000000;
 /* table */
 
 #table {
-    padding-top: 10%;
+    padding-top: 7%;
     padding-bottom: 15%;
+    width: 85%;
+    margin: auto;
 }
 
 table.iksweb{

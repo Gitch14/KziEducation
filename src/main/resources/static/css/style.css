@@ -69,7 +69,7 @@ body {
 	left: 0;
 	top: 0;
 	z-index: 50;
-	
+
 }
 .header__container {
 	display: flex;
@@ -78,7 +78,7 @@ body {
 }
 
 
-	
+
 	.header__logo {
 	}
 .header__menu {
@@ -114,11 +114,11 @@ color: #ffffff;
 	/*----------------------- Main------------------ */
 	.main{
 		flex: 1 1 auto;
-	} 
+	}
 	.main__news {
 	}
 	/* -------------------Main-block--------------------- */
-	
+
 .main-block {
 	position: relative;
 }
@@ -130,11 +130,11 @@ color: #ffffff;
 		position: relative;
 		z-index: 2;
 		padding: 324px 0px 0px 198px;
-		
+
 	}
 	.main-block__body > *:not(:last-child) {
 		margin: 0px 0px 10px 0px;
-	} 
+	}
 	.main-block__text{
 		font-size: 30px;
 line-height: calc(45/30*100%);
@@ -185,7 +185,7 @@ color: #FFFFFF;
 	height: 100%;
 	top: 0;
 	left: 0;
-} 
+}
 .main-block__image img{
 	width: 100%;
 }

@@ -1,4 +1,4 @@
-package com.example.kzieducation.controller;
+package com.example.kzieducation.configuration;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

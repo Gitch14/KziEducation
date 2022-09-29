@@ -20,4 +20,9 @@ public class MainController {
     public String adminPanel(){
         return "adminPanel";
     }
+
+    @GetMapping("/faq")
+    public String faq(){
+        return "FAQ";
+    }
 }

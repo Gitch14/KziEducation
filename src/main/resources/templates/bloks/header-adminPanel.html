@@ -1,0 +1,26 @@
+<div th:fragment="header-adminPanel" xmlns:th="http://www.w3.org/1999/xhtml" >
+    <head>
+        <link rel="stylesheet" type="text/css" href="../../static/css/adminPanel.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    </head>
+<header class="d-flex flex-wrap justify-content-center py-3" id="header">
+    <menu id="menu">
+    <a href="/admin-panel" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4"><img width="40px" height="50px" src="https://suitt.edu.ua/wp-content/uploads/2021/07/logo2.png" alt="logo"></span>
+    </a>
+
+    <ul class="nav nav-pills ">
+            <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="/adminPanel" class="nav-link">Panel</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Add user</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Add Ivent</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Add timetable</a></li>
+            <li class="nav-item" id="lang"><a href="#" class="nav-link"><img src="https://i.postimg.cc/5t5qHgcK/1f1fa-1f1e6-1.png"></a></li>
+            <li class="nav-item" id="logOut"><a href="#" class="nav-link">LogOut</a></li>
+        </ul>
+        </menu>
+</header>
+</div>

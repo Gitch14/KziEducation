@@ -9,25 +9,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>Title</title>
 </head>
-<header id="header">
-    <menu id="menu">
-        <a href="/" id="logo">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            <span class="fs-4"><img width="40px" height="50px" src="https://suitt.edu.ua/wp-content/uploads/2021/07/logo2.png" alt="logo"></span>
-        </a>
-    
-        <ul class="nav nav-pills ">
-            <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Panel</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Add user</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Add Ivent</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Add timetable</a></li>
-            <li class="nav-item" id="lang"><a href="#" class="nav-link"><img src="https://i.postimg.cc/5t5qHgcK/1f1fa-1f1e6-1.png"></a></li>
-            <li class="nav-item" id="logOut"><a href="#" class="nav-link">LogOut</a></li>
-    
-        </ul>
-            </menu>
-</header>
+<header th:insert="bloks/header-adminPanel :: header"></header>
 <body id="body">
     <div id="container">
         <table class="iksweb">
@@ -246,86 +228,5 @@
         </table>
     </div>
 </body>
-<footer class="footer">
-    <div class="footer__top">
-        <div class="footer__main _container">
-            <div class="footer__row">
-                <div class="footer__column">
-                    <div class="footer__label">Company Info</div>
-                    <nav class="footer__menu menu-footer">
-                        <ul class="menu-footer__list">
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">About Us</a></li>
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">Carrier</a></li>
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">We are hiring</a></li>
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">Blog</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer__column">
-                    <div class="footer__label">Legal</div>
-                    <nav class="footer__menu menu-footer">
-                        <ul class="menu-footer__list">
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">About Us</a></li>
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">Carrier</a></li>
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">We are hiring</a></li>
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">Blog</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer__column">
-                    <div class="footer__label">Features</div>
-                    <nav class="footer__menu menu-footer">
-                        <ul class="menu-footer__list">
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">About Us</a></li>
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">Carrier</a></li>
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">We are hiring</a></li>
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">Blog</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer__column">
-                    <div class="footer__label">Resources</div>
-                    <nav class="footer__menu menu-footer">
-                        <ul class="menu-footer__list">
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">About Us</a></li>
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">Carrier</a></li>
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">We are hiring</a></li>
-                            <li class="menu-footer__item"><a href="" class="menu-footer__link">Blog</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer__column">
-                    <div class="footer__label">Get In Touch</div>
-                    <div class="footer__contacts contacts-footer">
-                        <a href="tel:4805550103"
-                            class="contacts-footer__item contacts-footer__item_phone">0000000000</a>
-                        <a href="" class="contacts-footer__item contacts-footer__item_map">Aleksandrovskii
-                            prospect,6</a>
-                        <a href="mailto:debra.holt@example.com"
-                            class="contacts-footer__item contacts-footer__item_email">KziEducation@gmail.com</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer__bottom">
-        <div class="footer__container _container">
-            <div class="footer__copy">Made With Group1 </div>
-            <div class="footer__social social">
-                <a href="" class="social__item">
-                    <img src=".//icons/footer/01.svg" alt="social">
-                </a>
-                <a href="" class="social__item">
-                    <img src=".//icons/footer/02.svg" alt="social">
-                </a>
-                <a href="" class="social__item">
-                    <img src=".//icons/footer/03.svg" alt="social">
-                </a>
-                <a href="" class="social__item">
-                    <img src=".//icons/footer/04.svg" alt="social">
-                </a>
-            </div>
-        </div>
-    </div>
-</footer>
+<footer th:insert="bloks/footer :: footer"></footer>
 </html>

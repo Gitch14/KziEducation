@@ -66,28 +66,35 @@ width:303px ;
 .contacts-footer__item:not(:last-child) {
 	margin: 0px 0px 12px 0px;
 }
-.contacts-footer__item_phone {
-	background: url("../icons/footer/contacts/01.svg") 0 0 no-repeat;
-}
-.contacts-footer__item_map {
-	background: url("../icons/footer/contacts/02.svg") 0 0 no-repeat;
-}
-.contacts-footer__item_email {
-	background: url("../icons/footer/contacts/03.svg") 0 0 no-repeat;
-}
-.group__list{
-	width: 100%;
-}
+
 .tg{
 	width: 24px;
 	height: 24px;
 }
 .group__list{
 	display: flex;
-	margin: 30px 30px;
+	width: 100%;
+	margin: 30px -55px;
 }
+
 .list__item{
 	margin: 0 20px;
+}
+
+.group_contact_list {
+	text-decoration: none;
+  outline: none;
+  display: block;
+  padding: 6px 0;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #444;
+  transition: .3s linear;
+
+}
+
+.i1 {
+	padding-top: 20px;
 }
 
 

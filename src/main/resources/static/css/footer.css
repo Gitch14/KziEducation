@@ -81,20 +81,12 @@ width:303px ;
 	margin: 0 20px;
 }
 
-.group_contact_list {
-	text-decoration: none;
-  outline: none;
-  display: block;
-  padding: 6px 0;
-  letter-spacing: 1px;
-  font-weight: 300;
-  color: #444;
-  transition: .3s linear;
 
+.info {
+	left: 350px;
+    position: relative;
+    top: 75px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
 }
-
-.i1 {
-	padding-top: 20px;
-}
-
-

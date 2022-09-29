@@ -252,6 +252,7 @@ color: #000000;
 	}
 
 	.item-news__link {
+		margin-left: -40px;
 		font-size: 15px;
 line-height: calc(23/15*100%);
 text-transform: uppercase;

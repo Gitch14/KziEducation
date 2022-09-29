@@ -18,6 +18,50 @@
     background-size: cover;
 }
 
+@media screen and (max-width: 1501px){
+        #body {
+            max-width: 1501px;
+            min-width: 1500px;
+        }
+
+    #lang {
+             position: relative;
+             display: inline-flex;
+             left: 75%;
+             top: -7px;
+         }
+
+          #logOut {
+                position: relative;
+                display: inline-flex;
+                left: 80%;
+          }
+
+}
+
+@media screen and (max-width: 901px){
+        #body {
+            max-width: 901px;
+            min-width: 900px;
+            display: revert;
+        }
+
+    #lang {
+             position: relative;
+             display: inline-flex;
+             left: 75%;
+             top: -7px;
+         }
+
+          #logOut {
+                position: relative;
+                display: inline-flex;
+                left: 80%;
+          }
+
+}
+
+
 
 #menu {
     position: absolute;

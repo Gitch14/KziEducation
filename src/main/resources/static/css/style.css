@@ -37,6 +37,21 @@ body {
 	font-weight: 400px;
 	font-family: Anton;
 }
+
+@media screen and (max-width: 1401px) {
+	html,
+	body {
+		min-width: 1400px;
+		display: inline-block;
+		height: 100%;
+		line-height: 1;
+		background: #E5E5E5;
+		font-size: 14px;
+		color: #000000;
+		font-weight: 400px;
+		font-family: Anton;
+	}
+}
 /* ------------------------------------- */
 .wrapper {
 	min-height: 100%;

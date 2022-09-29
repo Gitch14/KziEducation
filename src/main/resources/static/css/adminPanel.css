@@ -4,25 +4,32 @@
 }
 
 #body{
+    max-width: 1900px;
+    min-width: 1800px;
     padding: 0;
     margin: 0 !important;
 }
 
 #header {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    top: 0;
+    position: sticky;
     margin: 0;
     padding: 0;
-    width: 100%;
     height: 130px;
-    background-image: url("https://i.postimg.cc/tgNcZxXh/1646375923-1-abrakadabra-fun-p-oboi-s-khogvartsom-2-1.png");
-    background-repeat: no-repeat;
+    background-image: url(https://i.postimg.cc/tgNcZxXh/1646375923-1-abrakadabra-fun-p-oboi-s-khogvartsom-2-1.png);
     background-size: cover;
+    object-fit: contain;
+
 }
 
 
 #menu {
-    position: absolute;
+    position: relative;
     display: inline-flex;
-  width: 1374px;
+  width: 100%;
   height: 84px;
   left: -3%;
   top: 5%;
@@ -32,7 +39,7 @@
     display: inline-flex;
     list-style: none;
     margin: 0;
-    padding-left: 11%;
+
   }
   a {
     color: #ffff;
@@ -53,22 +60,26 @@
   }
   
   #lang {
-    position: relative;
+      position: relative;
     display: inline-flex;
-    left: 900px;
+      left: 95%;
     top: -7px;
   }
   
   #logOut {
-    position: relative;
+      position: relative;
     display: inline-flex;
-    left: 950px;
+      left: 95%;
   }
 
   #logo {
-    position: relative;
+      position: relative;
     top: -20px;
   }
+
+   a.d-flex.align-items-center.mb-3.mb-md-0.me-md-auto.text-dark.text-decoration-none {
+    margin-top: -1%;
+}
 
 /*body */
 

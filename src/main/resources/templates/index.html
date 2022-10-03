@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homepage</title>
+	<link rel="stylesheet" href="../static/css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<header th:insert="bloks/header :: header"></header>
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<section class="main__news news">
+				<div class="news__container _container">
+					<h3 class="news__title">News</h3>
+					<div class="news__body">
+						<div class="news__column">
+							<div class="news__item item-news">
+								<div class="item-news__title">News1</div>
+								<div class="item-news__text">
+									Burning Man is a network of people inspired by the values reflected in the
+									Ten Principles and united in the pursuit of a more creative and connected
+									existence in the world. Throughout the year we work to build Black Rock
+									City, home of the largest annual Burning Man gathering, and nurture the
+									distinctive culture emerging from that experience.
+								</div>
+								<a href="#" class="item-news__link">Read more</a>
+							</div>
+						</div>
+						<div class="news__column">
+							<div class="news__item item-news">
+								<div class="item-news__title">News2</div>
+								<div class="item-news__text">
+									Burning Man Project will bring experiences to people in grand, awe-
+									inspiring and joyful ways that lift the human spirit, address social
+									problems, and inspire a sense of culture, community, and civic
+									engagement....
+								</div>
+								<a href="#" class="item-news__link">Read more</a>
+							</div>
+						</div>
+						<div class="news__column">
+							<div class="news__item item-news">
+								<div class="item-news__title">News1</div>
+								<div class="item-news__text">
+									Burning Man is a network of people inspired by the values reflected in the
+									Ten Principles and united in the pursuit of a more creative and connected
+									existence in the world. Throughout the year we work to build Black Rock
+									City, home of the largest annual Burning Man gathering, and nurture the
+									distinctive culture emerging from that experience.
+								</div>
+								<a href="#" class="item-news__link">Read more</a>
+							</div>
+						</div>
+						<div class="news__column">
+							<div class="news__item item-news">
+								<div class="item-news__title">News2</div>
+								<div class="item-news__text">
+									Burning Man Project will bring experiences to people in grand, awe-
+									inspiring and joyful ways that lift the human spirit, address social
+									problems, and inspire a sense of culture, community, and civic
+									engagement....
+								</div>
+								<a href="#" class="item-news__link">Read more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer th:insert="bloks/footer :: footer"></footer>
+	</div>
+</body>
+
+</html>

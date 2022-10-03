@@ -1,0 +1,255 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	background: #E5E5E5;
+	font-size: 14px;
+	color: #000000;
+	font-weight: 400px;
+	font-family: Anton;
+}
+
+
+@media screen and (max-width: 901px) {
+	html,
+	body {
+		display: inline-block;
+		height: 100%;
+		line-height: 1;
+		background: #E5E5E5;
+		font-size: 14px;
+		color: #000000;
+		font-weight: 400px;
+		font-family: Anton;
+	}
+}
+/* ------------------------------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/* ------------------------------- */
+._container {
+	max-width: 1380px;
+	padding: auto 15px;
+	margin: 0px auto;
+	box-sizing: content-box;
+}
+._ibg {
+	position: relative;
+}
+._ibg img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+	/*----------------------- Main------------------ */
+	.main{
+		flex: 1 1 auto;
+	} 
+	.main__cource {
+	}
+
+/* -----------------Cource------------------------------------ */
+.cource {
+	padding: 100px 0 0 155px;
+
+}
+
+.cource__container {
+	}
+
+	.cource__body {
+		padding: 96px 0 64px 0 ;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.cource__title {
+		margin: 0 0 70px 0;
+		font-weight: 700;
+font-size: 48px;
+line-height: calc(39/32*100%);
+text-align: center;
+color: #141414;
+	}
+
+	.cource__column {
+		flex: 0 1 10%;
+		margin-top: 30px;
+	}
+
+	.cource__item {
+	}
+
+.item-cource {}
+	.item-cource__item {
+		background: #FFFFFF;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+display: flex;
+	}
+
+
+	.item-cource__text {
+		margin-top:30px ;
+		font-family: 'Anton';
+		font-size: 25px;
+		line-height: 162.68%;
+		display: flex;
+		align-items: center;
+		text-align: justify;
+		
+		color: #000000;
+	}
+
+.item {}
+
+	.item__text {
+		margin-left: 50px;
+		font-family: 'Anton';
+		font-size: 48px;
+		line-height: 162.68%;
+		display: flex;
+		align-items: center;
+		text-align: justify;
+	}
+	
+	.item__icon {
+		margin: 0 0 0 1150px;
+		padding: 32px 0 32px 0 ;
+	}
+
+	
+
+
+/* -----------Footer---------------- */
+.footer {
+	background-color: #000000;
+	height:  230px;
+}
+.footer__main{} 
+.container{}
+.footer__body{
+	display: flex;
+}
+
+.footer__image {
+	margin-top:55px ;
+	width: 150px;
+	height: 150px;
+}
+.footer__group{
+	margin-left: 363px;
+	margin-top: 100px;
+}
+.group__text{
+	font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+text-align: center;
+color: #FFFFFF;
+height:37px ;
+width:303px ;
+}
+.footer__column {
+	padding: 15px 15px;
+	flex: 0 1 16.6667%;
+	margin-left:320px ;
+	margin-top: 30px;
+}
+.footer__column:last-child {
+	flex: 0 1 33.334%;
+}
+
+
+
+.footer__label {
+	color: #fff;
+	font-size: 16px;
+	line-height: 150%;
+	margin: 0px 0px 20px 0px;
+}
+
+.contacts-footer {
+	display: flex;
+	flex-direction: column;
+}
+.contacts-footer__item {
+	text-decoration: none;
+	padding: 0px 0px 0px 34px;
+	line-height: 142%;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	min-height: 30px;
+}
+.contacts-footer__item:hover {
+	text-decoration: underline;
+}
+.contacts-footer__item:not(:last-child) {
+	margin: 0px 0px 12px 0px;
+}
+.contacts-footer__item_phone {
+	background: url("../icons/footer/contacts/01.svg") 0 0 no-repeat;
+}
+.contacts-footer__item_map {
+	background: url("../icons/footer/contacts/02.svg") 0 0 no-repeat;
+}
+.contacts-footer__item_email {
+	background: url("../icons/footer/contacts/03.svg") 0 0 no-repeat;
+}
+.group__list{
+	width: 100%;
+}
+.tg{
+	width: 24px;
+	height: 24px;
+}
+.group__list{
+	display: flex;
+	margin: 30px 30px;
+}
+.list__item{
+	margin: 0 20px;
+}
+
+

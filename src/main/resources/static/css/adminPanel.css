@@ -1,0 +1,143 @@
+#html {
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+    max-width: 1900px;
+    min-width: 1899px;
+    padding: 0;
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 1501px){
+        #body {
+            max-width: 1501px;
+            min-width: 1500px;
+        }
+
+    #lang {
+             position: relative;
+             display: inline-flex;
+             left: 75%;
+             top: -7px;
+         }
+
+          #logOut {
+                position: relative;
+                display: inline-flex;
+                left: 80%;
+          }
+
+}
+
+
+
+#header {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    top: 0;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    height: 130px;
+    background-image: url(https://i.postimg.cc/tgNcZxXh/1646375923-1-abrakadabra-fun-p-oboi-s-khogvartsom-2-1.png);
+    background-size: cover;
+    object-fit: contain;
+
+}
+
+
+#menu {
+    position: relative;
+    display: inline-flex;
+  width: 100%;
+  height: 84px;
+  left: -3%;
+  top: 30%;
+  }
+  
+  ul {  
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+
+  }
+  a {
+    color: #ffff;
+    text-decoration: none;
+    padding-left: 40px;
+  
+    font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  }
+  
+  #lang {
+      position: relative;
+    display: inline-flex;
+      left: 95%;
+    top: -7px;
+  }
+  
+  #logOut {
+      position: relative;
+    display: inline-flex;
+      left: 95%;
+  }
+
+  #logo {
+      position: relative;
+    top: -20px;
+  }
+
+   a.d-flex.align-items-center.mb-3.mb-md-0.me-md-auto.text-dark.text-decoration-none {
+    margin-top: -1%;
+}
+
+/*body */
+
+#container {
+  display: flex;
+  padding-top: 10%;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 15%;
+}
+
+/* table */
+
+#table {
+    padding-top: 10%;
+    
+}
+
+table.iksweb{
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+}
+table.iksweb,table.iksweb td, table.iksweb th {
+	border: 1px solid #595959;
+}
+table.iksweb td,table.iksweb th {
+  text-align: center;
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+table.iksweb th {
+	background: #347c99; 
+	color: #fff; 
+	font-weight: normal;
+}

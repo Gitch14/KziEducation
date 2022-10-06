@@ -14,6 +14,8 @@ public class User {
     private String surname;
     private String name;
     private String group;
-    private int score;
-    private int rank;
+    private String pass;
+    private String role;
+
+
 }

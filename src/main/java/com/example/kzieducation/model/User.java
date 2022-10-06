@@ -3,7 +3,6 @@ package com.example.kzieducation.model;
 
 import lombok.*;
 
-@AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
@@ -17,5 +16,11 @@ public class User {
     private String pass;
     private String role;
 
-
+    public User(String surname, String name, String group, String pass, String role) {
+        this.surname = surname;
+        this.name = name;
+        this.group = group;
+        this.pass = pass;
+        this.role = role;
+    }
 }

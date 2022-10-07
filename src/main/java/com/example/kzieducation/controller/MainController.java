@@ -25,4 +25,15 @@ public class MainController {
     public String faq(){
         return "FAQ";
     }
+
+    @GetMapping("/login")
+    public String login(){
+        return "login";
+    }
+
+    @GetMapping("/logout")
+    public String logOut(){
+        return "logout";
+    }
+
 }

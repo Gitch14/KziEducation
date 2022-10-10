@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homepage</title>
+	<link rel="stylesheet" href="../static/css/style(addUser).css">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<header id="header" th:insert="bloks/header-adminPanel :: header"></header>
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<section class="main__main-block main-block">
+				<div class="main-block__container _container">
+					<div class="main-block__body">
+						<div class="main-block__header">
+						<img src="../KZIeducation/img/zamok2.png" alt="" class="header__image1">			
+				<div class="header__title">Add User</div>
+							<img src="../KZIeducation/img/hp.png" alt="" class="header__image2">
+						</div>
+							 <form action="/admin/add-user" method="post">
+									<input type="text" id="fname1" name="fname" placeholder="Username" class="form__input"><br>
+
+									<input type="text" id="fname2" name="fname" placeholder="Name" class="form__input"><br>
+
+									<input type="text" id="fname3" name="fname" placeholder="Group" class="form__input"><br>
+
+									<input type="text" id="fname4" name="fname" placeholder="Role" class="form__input"><br>
+
+									<input type="text" id="fname5" name="fname" placeholder="Pass" class="form__input"><br>
+
+						<div class="main-block__button">
+							<button id="postButtonUser" type="submit"><img src="https://i.postimg.cc/dt0Wgrg6/btn-1.png" alt=""></button>
+						</div>
+								 </form>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+</body>
+<footer th:insert="bloks/footer :: footer"></footer>
+</html>

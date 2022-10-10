@@ -1,0 +1,211 @@
+	/*----------------------- Main------------------ */
+	.main{
+		flex: 1 1 auto;
+	} 
+	/* ------------------------------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/* ------------------------------- */
+._container {
+	max-width: 1380px;
+	padding: auto 15px;
+	margin: 0px auto;
+	box-sizing: content-box;
+}
+
+	#html {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		margin: 0!important;
+	}
+
+
+	@media screen and (max-width: 1501px){
+			#body {
+				max-width: 1901px;
+				min-width: 1601px;
+			}
+
+		#lang {
+					position: relative;
+					display: inline-flex;
+					left: 75%;
+					top: -7px;
+			}
+
+				#logOut {
+						position: relative;
+						display: inline-flex;
+						left: 80%;
+				}
+
+	}
+
+
+
+	#header {
+		width: 100%;
+		flex-wrap: wrap;
+		display: flex;
+		top: 0;
+		position: sticky;
+		margin: 0;
+		padding: 0;
+		height: 130px;
+		background-image: url(https://i.postimg.cc/tgNcZxXh/1646375923-1-abrakadabra-fun-p-oboi-s-khogvartsom-2-1.png);
+		background-size: cover;
+		object-fit: contain;
+
+	}
+
+
+	#menu {
+		position: relative;
+		display: inline-flex;
+	width: 100%;
+	height: 84px;
+	left: -3%;
+	top: 30%;
+	}
+
+	ul {
+		display: inline-flex;
+		list-style: none;
+		margin: 0;
+
+	}
+	a {
+		text-decoration: none;
+		padding-left: 40px;
+		font-family: 'Anton';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	/* identical to box height */
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	}
+
+	#lang {
+		position: relative;
+		display: inline-flex;
+		left: 95%;
+		top: -7px;
+	}
+
+	#logOut {
+		position: relative;
+		display: inline-flex;
+		left: 95%;
+	}
+
+	#logo {
+		position: relative;
+		top: -20px;
+	}
+
+	a.d-flex.align-items-center.mb-3.mb-md-0.me-md-auto.text-dark.text-decoration-none {
+		margin-top: -1%;
+	}
+
+	/*body */
+
+	#container {
+	display: flex;
+	padding-top: 10%;
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 15%;
+	}
+	/* ---------Main-block---------------------------- */
+
+		.main__main-block {
+		}
+
+.main-block {
+	margin: 293px 0 293px 241px;
+	width: 1304px;
+height: 990px;
+background: #D9D9D9;
+border-radius: 50px;
+}
+.main-block__container{}
+.main-block__body{
+	padding-top: 60px;
+}
+	.main-block__header {
+		display: flex;
+
+
+		}
+
+		.main-block__list {
+			margin-top: 35px;
+			display: flex;
+			flex-direction: column;
+
+		}
+
+		.main-block__button {
+			margin-left: 800px;
+			margin-top: 99px;
+		}
+
+
+		.header__image1 {
+			width: 100px;
+			position: relative;
+			z-index: 2;
+		}
+
+		.header__title {
+			padding-bottom: 60px;
+			margin: auto;
+			font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 98px;
+text-align: center;
+
+color: #000000
+		}
+
+		.header__image2 {
+		}
+
+
+		.form__input{
+			border-radius: 30px;
+    width: 750px;
+    height: 57px;
+    margin: auto;
+    border: 0;
+    background: #4E4C4C;
+    padding-left: 55px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 68px;
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+		}
+		.list__item:not(:first-child){
+			margin-top: 63px;
+		}
+
+		button#postButtonUser {
+    border: none;
+    outline: none;
+    background: none;
+}

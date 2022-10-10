@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class AdminController {
 
-    @GetMapping("/add-user")
+    @GetMapping("/admin/add-user")
     public String addUser(){
-        return "addUserPage";
+        return "addUser";
     }
 
 }

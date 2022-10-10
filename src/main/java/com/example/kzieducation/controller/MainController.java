@@ -16,7 +16,7 @@ public class MainController {
         return "kabinet";
     }
 
-      @GetMapping("/adminPanel")
+      @GetMapping("/admin")
     public String adminPanel(){
         return "adminPanel";
     }

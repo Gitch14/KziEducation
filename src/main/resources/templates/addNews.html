@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homepage</title>
+	<link rel="stylesheet" href="../static/css/style(addNews).css">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<header id="header" th:insert="bloks/header-adminPanel :: header"></header>
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<section class="main__main-block main-block">
+				<div class="main-block__container _container">
+					<div class="main-block__body">
+						<div class="main-block__header">
+						<img src="https://i.postimg.cc/9Xb8xJgz/if-11-harry-potter-colour-quill-2730324-88144-1.png" alt="" class="header__image1">
+				<div class="header__title">Add news</div>
+							<img src="https://i.postimg.cc/VvKKdk0X/news-newspaper-media-paper-press-article-108607-1.png" alt="" class="header__image2">
+
+							<form action="/admin/add-user" method="post" id="form">
+									<input type="text" id="title" name="fname" placeholder="Title" class="form__input">
+
+									<input type="text" id="preview" name="fname" placeholder="Preview" class="form__input">
+
+									<textarea type="text" id="fullText" name="fname" placeholder="Full text" class="form__input"></textarea><br>
+
+									<button class="main-block__button" id="postButtonUser" type="submit"><img src="https://i.postimg.cc/RhSPSHhM/btn.png" alt=""></button>
+
+							</form>
+
+
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+</body>
+<footer th:insert="bloks/footer :: footer"></footer>
+</html>

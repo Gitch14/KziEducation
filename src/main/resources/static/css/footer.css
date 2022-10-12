@@ -1,4 +1,5 @@
 .footer {
+	z-index: 999;
 	background-color: #000000;
 	height:  230px;
 }

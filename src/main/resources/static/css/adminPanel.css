@@ -35,6 +35,7 @@
 
 #header {
     width: 100%;
+    z-index: 999 !important;
     flex-wrap: wrap;
     display: flex;
     top: 0;
@@ -141,3 +142,4 @@ table.iksweb th {
 	color: #fff; 
 	font-weight: normal;
 }
+

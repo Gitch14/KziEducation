@@ -26,7 +26,7 @@ public class AdminController {
     public String methodPostAddUser(@RequestParam String surname, @RequestParam String name, @RequestParam String group, @RequestParam String role, @RequestParam String pass, Model model){
         User user = new User(surname,name,group,role,pass);
         userRepository.save(user);
-         return "redirect:/";
+         return "redirect:/admin/add-user";
     }
 
 }

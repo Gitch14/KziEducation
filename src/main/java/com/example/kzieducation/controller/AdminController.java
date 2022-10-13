@@ -17,6 +17,12 @@ public class AdminController {
         this.userRepository = userRepository;
     }
 
+    @GetMapping("/admin")
+    public String adminPanel(Model model){
+        Iterable<User> user = userRepository.findAll();
+        model.addAttribute("user", user);
+        return "adminPanel";
+    }
     @GetMapping("/admin/add-user")
     public String addUser(){
         return "addUser";

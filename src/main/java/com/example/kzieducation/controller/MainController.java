@@ -8,13 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MainController {
 
       @GetMapping("/kabinet")
-    public String kabinet(){
+      public String kabinet(){
         return "kabinet";
-    }
-
-      @GetMapping("/admin")
-    public String adminPanel(){
-        return "adminPanel";
     }
 
     @GetMapping("/faq")

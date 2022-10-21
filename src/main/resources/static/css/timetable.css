@@ -142,6 +142,7 @@ color: #000000;
 }
 
 #timeTable-img {
+    margin-top: 100px;
     width: 80%;
     margin: auto;
     background-color: antiquewhite;

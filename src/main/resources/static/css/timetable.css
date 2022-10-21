@@ -1,0 +1,150 @@
+#html {
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+    max-width: 4000px;
+    min-width: 1899px;
+    padding: 0;
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 1501px){
+        #body {
+            max-width: 1501px;
+            min-width: 1500px;
+        }
+
+    #lang {
+             position: relative;
+             display: inline-flex;
+             left: 75%;
+             top: -7px;
+         }
+
+          #logOut {
+                position: relative;
+                display: inline-flex;
+                left: 80%;
+          }
+
+}
+
+
+
+#header {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    top: 0;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    height: 130px;
+    background-image: url(https://i.postimg.cc/tgNcZxXh/1646375923-1-abrakadabra-fun-p-oboi-s-khogvartsom-2-1.png);
+    background-size: cover;
+    object-fit: contain;
+
+}
+
+
+#menu {
+    position: relative;
+    display: inline-flex;
+  width: 100%;
+  height: 84px;
+  left: -3%;
+  top: 30%;
+  }
+
+  ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+
+  }
+  a {
+    color: #ffff;
+    text-decoration: none;
+    padding-left: 40px;
+
+    font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+  }
+
+  #lang {
+      position: relative;
+    display: inline-flex;
+      left: 95%;
+    top: -7px;
+  }
+
+  #logOut {
+      position: relative;
+    display: inline-flex;
+      left: 95%;
+  }
+
+  #logo {
+      position: relative;
+    top: -20px;
+  }
+
+   a.d-flex.align-items-center.mb-3.mb-md-0.me-md-auto.text-dark.text-decoration-none {
+    margin-top: -1%;
+}
+
+/*body */
+
+#profile {
+    position: relative;
+    display: flex;
+    width: 1346px;
+height: 512px;
+left: 99px;
+top: 210px;
+}
+
+#profileImg {
+    height: 320px;
+}
+
+#profileText {
+        padding-top: 10px;
+    padding-left: 70px;
+}
+
+#rank {
+    padding-top: 5%;
+    padding-left: 6%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 68px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+#timeTable-img {
+    width: 80%;
+    margin: auto;
+    background-color: antiquewhite;
+    height: 750px;
+    margin-bottom: 100px;
+}

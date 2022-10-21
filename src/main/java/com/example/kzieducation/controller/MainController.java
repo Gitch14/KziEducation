@@ -1,16 +1,10 @@
 package com.example.kzieducation.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class MainController {
-
-      @GetMapping("/kabinet")
-      public String kabinet(){
-        return "kabinet";
-    }
 
     @GetMapping("/faq")
     public String faq(){

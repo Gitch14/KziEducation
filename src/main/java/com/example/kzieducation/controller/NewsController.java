@@ -25,6 +25,13 @@ public class NewsController {
         return "index";
     }
 
+    @GetMapping("/councilum")
+    public String councilum(Model model){
+        Iterable<News> news = newsRepository.findAll();
+        model.addAttribute("news", news);
+        return "councilum";
+    }
+
     @GetMapping("/admin/add-news")
     public String addNews(){
         return "addNews";

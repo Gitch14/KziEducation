@@ -17,6 +17,7 @@ public class MainController {
         return "FAQ";
     }
 
+
     @GetMapping("/login")
     public String login(){
         return "login";

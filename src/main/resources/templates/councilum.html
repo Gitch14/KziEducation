@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homepage</title>
+	<link rel="stylesheet" href="../static/css/style(councilum).css">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<header th:insert="bloks/header-councilum :: header"></header>
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<section class="main__news news">
+				<div class="news__container _container">
+					<h3 class="news__title">News</h3>
+					<div class="news__body">
+						<div th:each="el : ${news}" class="news__column">
+							<div class="news__item item-news">
+								<div class="item-news__title" th:text="${el.title}"></div>
+								<div class="item-news__text" th:text="${el.description}">
+
+								</div>
+								<div class="buttons-control">
+								<a href="#" class="item-news__link">Read more</a>
+								<a href="#" class="item-news__link">Edit</a>
+								<a href="#" class="item-news__link">Delete</a>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer th:insert="bloks/footer :: footer"></footer>
+	</div>
+</body>
+
+</html>

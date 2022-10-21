@@ -2,6 +2,9 @@ package com.example.kzieducation.controller;
 
 import com.example.kzieducation.model.User;
 import com.example.kzieducation.repo.UserRepository;
+import com.example.kzieducation.service.SearchService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,15 +15,18 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class AdminController {
 
     private final UserRepository userRepository;
+    @Autowired
+    private SearchService search;
 
     public AdminController(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 
     @GetMapping("/admin")
-    public String adminPanel(Model model){
+    public String adminPanel(Model model, @Param("keyword") String keyword){
+        Iterable<User> users = search.listName(keyword);
         Iterable<User> user = userRepository.findAll();
-        model.addAttribute("user", user);
+        model.addAttribute("keyword", users);
         return "adminPanel";
     }
     @GetMapping("/admin/add-user")

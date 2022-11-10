@@ -23,10 +23,9 @@ public class AdminController {
     }
 
     @GetMapping("/admin")
-    public String adminPanel(Model model, @Param("keyword") String keyword){
-        Iterable<User> users = search.listName(keyword);
+    public String adminPanel(Model model){
         Iterable<User> user = userRepository.findAll();
-        model.addAttribute("keyword", users);
+        model.addAttribute("user", user);
         return "adminPanel";
     }
     @GetMapping("/admin/add-user")

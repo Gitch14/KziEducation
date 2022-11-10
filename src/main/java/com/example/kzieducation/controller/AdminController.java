@@ -15,8 +15,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class AdminController {
 
     private final UserRepository userRepository;
-    @Autowired
-    private SearchService search;
 
     public AdminController(UserRepository userRepository) {
         this.userRepository = userRepository;
